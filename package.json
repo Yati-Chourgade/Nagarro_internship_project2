@@ -1,14 +1,14 @@
 {
   "name": "nagarro_internship_project2",
   "version": "1.0.0",
-  "description": "twitter clone",
+  "description": "e-commerce",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
     "dev": "nodemon ./app.js"
   },
-  "author": "\"snehil khatri\",",
+  "author": "\"Yati Chourgade\",",
   "license": "ISC",
   "dependencies": {
     "connect-flash": "^0.1.1",
