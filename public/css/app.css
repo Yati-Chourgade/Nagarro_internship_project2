@@ -1,5 +1,10 @@
 body{
-    background-color: rgb(11, 13, 18);
+    background-color: rgb(122, 152, 228);
+    
+
+}
+.categories{
+  height: 50%;
 }
 
 #signup{

@@ -29,7 +29,7 @@ router.get('/shopping-cart',function(req,res,next){
     return res.render('layouts/shopping-cart',{products:null});
   }
   var cart = new Cart(req.session.cart);
-  res.render('layouts/shopping-cart',{products: cart.generateArray(),});
+  res.render('layouts/shopping-cart',{products: cart.generateArray(),totalPrice:cart.totalPrice});
 });
 
 module.exports = router;
